@@ -1,5 +1,5 @@
 {
-  "name": "tools_api",
+  "name": "dplayer_api",
   "version": "1.0.3",
   "description": "一个完全免费的DPlayer评论器",
   "main": "index.js",

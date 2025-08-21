@@ -2,7 +2,7 @@
 <html lang="zh-CN">
   <head>
     <meta charset="utf-8" />
-    <title>Tools API</title>
+    <title>DPlayer API</title>
     <link
       rel="shortcut icon"
       href="./favicon.svg"
@@ -124,7 +124,7 @@
   <body>
     <main>
       <div class="ico"><i class="fa-solid fa-screwdriver-wrench"></i></div>
-      <div class="title">Tools API</div>
+      <div class="title">DPlayer API</div>
       <div class="text">服务已正常运行</div>
     </main>
     <footer>
@@ -136,16 +136,11 @@
         <i class="fa-solid fa-envelope" onclick="socialJump('email')"></i>
       </div>
       <div class="power">
-        Copyright © 2020
+        Copyright © 2025
         <script>
           document.write(" - " + new Date().getFullYear());
         </script>
-        <a href="https://imsyy.top/" target="_blank">無名</a>
-      </div>
-      <div class="icp">
-        <a href="https://beian.miit.gov.cn/" target="_blank"
-          >豫ICP备2022018134号-1</a
-        >
+        <a href="https://blog.blowswind.cn/" target="_blank">末雨乘风</a>
       </div>
     </footer>
     <script>
@@ -163,22 +158,17 @@
       darkModeMediaQuery.addListener(toggleDarkMode);
       toggleDarkMode(darkModeMediaQuery);
 
-      // 按钮事件
-      const clickFunction = () => {
-        window.location.href = "/bilibili";
-      };
-
       // 社交链接跳转
       const socialJump = (type) => {
         switch (type) {
           case "github":
-            window.location.href = "https://github.com/imsyy/";
+            window.location.href = "https://github.com/piaoxue-181/";
             break;
           case "home":
-            window.location.href = "https://www.imsyy.top/";
+            window.location.href = "https://blog.blowswind.cn/";
             break;
           case "email":
-            window.location.href = "mailto:one@imsyy.top";
+            window.location.href = "mailto:admin@blowswind.cn";
             break;
           default:
             break;
